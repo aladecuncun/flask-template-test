@@ -1,5 +1,5 @@
-from project_name.base import NAME
+from flask_template_test.base import NAME
 
 
 def test_base():
-    assert NAME == "project_name"
+    assert NAME == "flask_template_test"
